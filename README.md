@@ -17,4 +17,10 @@ Accepts source and destination files and a threshold limit from the command line
 
 Accepts a file name (and optionally frequency range) from the command line and displays an FFT spectrum display.
 
+## But I've only got MP3 files!
+
+No problem, you can use ffmpeg on Windows, MacOS or Linux to convert the files:
+
+ffmpeg -i filename.mp3 filename.wav
+
 
