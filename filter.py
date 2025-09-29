@@ -137,7 +137,7 @@ if __name__ == "__main__":
     apply_bandpass_filter(input_file, output_file, low_cut, high_cut)
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="An Audio Spectrum Analysis Tool")
+    parser = argparse.ArgumentParser(description="An Audio Bandpass Filter Tool")
     parser.add_argument(
         "--input",
         "-i",
