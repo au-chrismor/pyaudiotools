@@ -67,7 +67,7 @@ def analyse_audio_stream(filename):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="An Audio Spectrum Analysis Tool")
+    parser = argparse.ArgumentParser(description="An Audio Stream Display Tool")
     parser.add_argument(
         "--input",
         "-i",
