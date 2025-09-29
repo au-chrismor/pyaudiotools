@@ -9,6 +9,10 @@ Accepts a file name from the command line, and displays a graphical representati
 
 Accepts source and destination files as well as filter cutoffs and applies a butterworth filter to the stream.
 
+**noiselimit.py**
+
+Accepts source and destination files and a threshold limit from the command line and applies a noise limitiing function.
+
 **spectrum.py**
 
 Accepts a file name (and optionally frequency range) from the command line and displays an FFT spectrum display.
